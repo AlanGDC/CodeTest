@@ -1,2 +1,0 @@
-# CodeTest
-Webdriverio code test
