@@ -1,6 +1,6 @@
 var assert = require('assert');
-describe('webdriver.io page', function() {
-    it('should have the right title - the fancy generator way', function () {
+describe('ERROR ', function() {
+    it(' Not the page "Selenium Standalone Service"  :' , function () {
 		
 		// 1 - Go to webdriver.io
 		browser.url('http://webdriver.io');
