@@ -15,25 +15,25 @@ npm install -g selenium-standalone
 4- Create dir repository:
 mkdir code-test
 
-4- Go to directory and initiate Git repository:
+5- Go to directory and initiate Git repository:
 cd code-test
 git init
 
-5- Download repository:
+6- Download repository:
 git pull https://github.com/AlanGDC/CodeTest.git
 
-4- Install Selenium-standalone and start:
+7- Install Selenium-standalone and start:
 selenium-standalone install
 selenium-standalone start
 
-6- Execute Test1.js and Test2.js individualy (opcinaly for test):
+8- Execute Test1.js and Test2.js individualy (opcinaly for test):
 node Test1.js
 node Test2.js
 
-5- Execute wdio config:
+9- Execute wdio config:
 ./node_modules/.bin/wdio config
 
-6- Select this answers to config:
+10- Select this answers to config:
 Q: Where do you want to execute your tests?
 A: On my local machine
 
@@ -66,7 +66,7 @@ A: http://localhost (just press enter)
 
 
 
-6- Execute wdio :
+10- Execute wdio :
 ./node_modules/.bin/wdio wdio.conf.js
 
 
