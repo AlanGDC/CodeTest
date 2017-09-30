@@ -1,39 +1,39 @@
-# CodeTest
-Webdriverio code test
+# WebdriverIO 
+WebdriverIO example
 
 How to run it locally:
 
-1- install nodejs:
+ 1- install nodejs:
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - sudo apt-get install 
 
-2- Install WebdriverIO:
+ 2- Install WebdriverIO:
 npm install -save-dev webdriverio
 
-3- Download Selenium-standalone server:
+ 3- Download Selenium-standalone server:
 npm install -g selenium-standalone
 
-4- Create dir repository:
+ 4- Create dir repository:
 mkdir code-test
 
-5- Go to directory and initiate Git repository:
+ 5- Go to directory and initiate Git repository:
 cd code-test
 git init
 
-6- Download repository:
+ 6- Download repository:
 git pull https://github.com/AlanGDC/CodeTest.git
 
-7- Install Selenium-standalone and start:
+ 7- Install Selenium-standalone and start:
 selenium-standalone install
 selenium-standalone start
 
-8- Execute Test1.js and Test2.js individualy (opcinaly for test):
+ 8- Execute Test1.js and Test2.js individualy (opcinaly for test):
 node Test1.js
 node Test2.js
 
-9- Execute wdio config:
+ 9- Execute wdio config:
 ./node_modules/.bin/wdio config
 
-10- Select this answers to config:
+ 10- Select this answers to config:
 Q: Where do you want to execute your tests?
 A: On my local machine
 
@@ -66,10 +66,5 @@ A: http://localhost (just press enter)
 
 
 
-10- Execute wdio :
+ 10- Execute wdio :
 ./node_modules/.bin/wdio wdio.conf.js
-
-
-What have blocks me:
-It was half technical and half time trouble; at first i wasn't able to upload my files to github in bash, i think it was beause of my old git user already configurated, so i began working local until i finish the two test, wich i have already design. 
-After that i began upload the files manualy in my Git repository for shorten time.
