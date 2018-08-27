@@ -15,10 +15,6 @@ npm install -g selenium-standalone
  4- Create dir repository:
 mkdir code-test
 
- 5- Go to directory and initiate Git repository:
-cd code-test
-git init
-
  6- Download repository:
 git clone https://github.com/AlanGDC/CodeTest.git
 
