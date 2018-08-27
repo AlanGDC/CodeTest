@@ -20,7 +20,7 @@ cd code-test
 git init
 
  6- Download repository:
-git pull https://github.com/AlanGDC/CodeTest.git
+git clone https://github.com/AlanGDC/CodeTest.git
 
  7- Install Selenium-standalone and start:
 selenium-standalone install
